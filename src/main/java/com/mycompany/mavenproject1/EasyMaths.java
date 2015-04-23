@@ -22,7 +22,7 @@ public class EasyMaths {
         if ((array1 == null) || (array2 == null)) {
             throw new IllegalArgumentException("null argument");
         }
-
+//laura added a comment
         if (array1.length != array2.length) {
             return false;
         }
